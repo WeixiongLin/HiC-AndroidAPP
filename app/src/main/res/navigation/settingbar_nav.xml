@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settingbar_nav"
+    app:startDestination="@id/bar1Fragment">
+
+    <fragment
+        android:id="@+id/bar1Fragment"
+        android:name="io.github.ryanhoo.music.ui.settings.Bar1Fragment"
+        android:label="fragment_bar1"
+        tools:layout="@layout/fragment_bar1" >
+        <action
+            android:id="@+id/action_bar1Fragment_to_bar2Fragment"
+            app:destination="@id/bar2Fragment" />
+        <action
+            android:id="@+id/action_bar1Fragment_to_bar3Fragment"
+            app:destination="@id/bar3Fragment" />
+        <action
+            android:id="@+id/action_bar1Fragment_to_bar4Fragment"
+            app:destination="@id/bar4Fragment" />
+        <argument
+            android:name="Volume"
+            app:argType="integer"
+            android:defaultValue="100" />
+        <argument
+            android:name="Speed"
+            app:argType="integer"
+            android:defaultValue="100" />
+        <argument
+            android:name="Tone"
+            app:argType="integer"
+            android:defaultValue="100" />
+    </fragment>
+    <fragment
+        android:id="@+id/bar2Fragment"
+        android:name="io.github.ryanhoo.music.ui.settings.Bar2Fragment"
+        android:label="fragment_bar2"
+        tools:layout="@layout/fragment_bar2" >
+        <action
+            android:id="@+id/action_bar2Fragment_to_bar1Fragment"
+            app:destination="@id/bar1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bar3Fragment"
+        android:name="io.github.ryanhoo.music.ui.settings.Bar3Fragment"
+        android:label="fragment_bar3"
+        tools:layout="@layout/fragment_bar3" >
+        <action
+            android:id="@+id/action_bar3Fragment_to_bar1Fragment"
+            app:destination="@id/bar1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bar4Fragment"
+        android:name="io.github.ryanhoo.music.ui.settings.Bar4Fragment"
+        android:label="fragment_bar4"
+        tools:layout="@layout/fragment_bar4" >
+        <action
+            android:id="@+id/action_bar4Fragment_to_bar1Fragment"
+            app:destination="@id/bar1Fragment" />
+    </fragment>
+</navigation>
