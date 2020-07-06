@@ -1,4 +1,4 @@
-# A Stylish Music Player
+# Hi-C Music Player
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ryanhoo/StylishMusicPlayer#license)
 [![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
@@ -10,7 +10,6 @@
 
 ## TODO
 
-- Lyric Support
 - Settings
 
 ## Acknowledgements
@@ -28,7 +27,7 @@ Thanks to these projects and libraries:
 
 **Design**
 
-- [Material icons](https://design.google.com/icons/)
+- [Material icons](https://www.iconfont.cn/)
 
 
 ## License
