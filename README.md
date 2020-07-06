@@ -10,8 +10,6 @@
 
 ## TODO
 
-- Settings
-
 ## Acknowledgements
 
 Thanks to these projects and libraries:
